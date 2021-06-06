@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width: 3em;
+}
+.navbar-custom{
+    background-color: #004AAD !important;
+}
+.nav-link{
+    color: white !important;
+    text-align: right;
+    margin-right: 1em
+}
+.navbar-toggler{
+    background-color: white;
+  
+}
+.navbar-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #004AAD;
+}
+.fa-ellipsis-h, .fa-times{
+    font-size: 1.5em;
+}
+
+@media (min-width: 992px) {
+    .hidden {
+        display: none;
+    }
+}
+.carousel-item{
+    height: 45vh;
+}
+.custom-one{
+    background-color: #004AAD;
+    transition: all 1.5s;
+}
+.custom-two{
+    background-color: #004AAD;
+    transition: all 1.5s;
+}
+.custom-three{
+    background-color: #004AAD;
+    transition: all 1.5s;
+}
+
