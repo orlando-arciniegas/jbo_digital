@@ -1,21 +1,26 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
 .logo{
     width: 3em;
 }
+
 .navbar-custom{
     background-color: #004AAD !important;
 }
+
 .nav-link{
     color: white !important;
     text-align: right;
     margin-right: 1em
 }
+
 .navbar-toggler{
     background-color: white;
   
 }
+
 .navbar-icon{
     display: inline-block;
     width: 1.5em;
@@ -26,15 +31,29 @@ body{
     background-size: 100%;
     color: #004AAD;
 }
+
 .fa-ellipsis-h, .fa-times{
     font-size: 1.5em;
 }
 
-@media (min-width: 992px) {
-    .hidden {
-        display: none;
-    }
+.btn-start{
+    width: 80%; 
 }
+
+.line-blue{
+    color:#004AAD;
+}
+
+.img-about{
+    width: 100%; 
+    border-radius: 5px;
+}
+
+.span-blue{
+    font-weight: bold;
+    color:#004AAD;
+}
+
 .carousel-item{
     height: 45vh;
 }
@@ -50,4 +69,15 @@ body{
     background-color: #004AAD;
     transition: all 1.5s;
 }
+.progress-text{
+    margin-top: 25px;
+}
+.progress{
+    height: 2em;
+}
 
+@media (min-width: 992px) {
+    .hidden {
+        display: none;
+    }
+}
